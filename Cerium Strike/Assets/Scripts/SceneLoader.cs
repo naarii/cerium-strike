@@ -11,7 +11,7 @@ public class SceneLoader : MonoBehaviour
         Invoke("LoadFirstScene", loadWaitTime);
     }
 
-    void LoadFirstScene()
+    void LoadFirstScene() // Called by string reference
     {
         SceneManager.LoadScene(1);
     }
